@@ -9,10 +9,10 @@ int main() {
 
     cout << "끝말잇기 시작: " << word << "\n";
     while (true) {
-        // 입력 받기 전 설정
+        
         clock_t startTime = clock();
 
-        cout << "단어를 입력하세요: ";
+        cout << "단어를 입력: ";
         string new_word;
         cin >> new_word;
 
@@ -23,7 +23,7 @@ int main() {
 
         clock_t endTime = clock();
         if ((endTime - startTime) / CLOCKS_PER_SEC >= 10) {  // TimeAttack 10초
-            cout << "시간 초과!! 게임 종료. \n입력한 단어 개수: " << count << "\n";
+            cout << "시간 초과 게임 종료. \n입력한 단어 개수: " << count << "\n";
             break;
         }
 
@@ -36,7 +36,7 @@ int main() {
 
         // 틀린 입력시
         else {
-            cout << "틀린 입력입니다.\n";
+            cout << "틀린 입력\n";
         }
         cout << word << endl;
     }
