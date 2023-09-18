@@ -2,7 +2,10 @@
 #include <cstdlib>  // rand() 사용을 위한 헤더파일
 #include <ctime>    // srand() 사용을 위한 헤더파일
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
+
 
 
 const int MAX_NUMBER = 3;       // 입력 가능한 숫자의 최댓값
