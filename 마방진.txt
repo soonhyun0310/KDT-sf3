@@ -1,0 +1,6 @@
+﻿빌드 시작...
+1>------ 빌드 시작: 프로젝트: Project, 구성: Debug x64 ------
+1>mabangjin.cpp
+1>Project.vcxproj -> C:\Users\PC\source\repos\Project\x64\Debug\Project.exe
+========== 빌드: 1개 성공, 0개 실패, 0개 최신 상태, 0개 건너뜀 ==========
+========== 빌드이(가) 오후 1:05에 시작되었고 03.633 초이(가) 소요됨 ==========
