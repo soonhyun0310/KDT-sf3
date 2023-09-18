@@ -10,9 +10,7 @@ int main() {
     cout << "끝말잇기 시작: " << word << "\n";
     while (true) {
         
-        clock_t startTime = clock();
-
-        cout << "단어를 입력: ";
+        clock_t startTime = clock(); 
         string new_word;
         cin >> new_word;
 
